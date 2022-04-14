@@ -1,0 +1,26 @@
+h1 {
+
+	color: black;
+	font-size:  70;
+
+}
+
+p { 
+
+	font-family:  "comic-sans";
+	text-indent:  10px;
+	margin-left: 10px;
+
+}
+
+#content {
+
+ 	background-color:  #cccccc;
+ 	width:  500px;
+ 	min-height: 300px;
+ 	padding:  10px;
+ 	margin: 10px;
+ 	border: solid 2px #444444;
+ 	font-size: 20px;
+
+}
