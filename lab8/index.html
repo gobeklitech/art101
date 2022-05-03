@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+
+<style>
+
+	#my-output {
+    width: 640px;
+	}
+
+</style>
+
+
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Art 101 Lab 8</title>
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+		<link rel="stylesheet" type="text/css" href="https://unpkg.com/bulma-prefers-dark" />
+
+		<script src="js/lab.js"></script>
+
+	</head>
+
+<!---------------------------------------------------------------------------------------------------->
+
+	<body>
+
+		<div class="content">
+			
+			<h1><strong> Lab 8 - Anonymous Functions & Callbacks</strong></h1>
+
+			<br>
+
+			<div class = "box">
+
+				<h1>Challenge</h1>
+
+				<p>Experiment with anonymous functions and callbacks in JavaScript.</p>
+				
+			</div>
+
+			<br>
+
+			<div class = "box">
+
+				<h1>Problem</h1>
+
+				<p>Our task in this lab was to experiment with two features in JavaScript, anonymous functions and Callbacks. Anonymous functions are basically just functions defined ad-hoc. The concept is slippery at first, but we can see how it can save time and energy down the line. Abstractly, callbacks are instructions for the system to follow when an event occurs, such as a button press or user input. In this case, our 'event' was a command to map the array somewhere, and the callback was the function we mapped the array to. Then we got meta with it, and created a function whose input itself is a callback. Far out!</p>
+			
+			</div>
+
+			<br>
+
+			<div class = "box">
+
+				<h1>Results</h1>
+
+				<figure>
+					<figcaption>Here is our code</figcaption>
+					<pre>
+
+function Factorial(n) {
+// Computes and returns n! 
+    i = 1 ;
+    product = 1 ; 
+
+    while (i <= n) {  
+
+        product = product*i ; 
+        i++;
+
+    }
+
+    return product
+}
+
+var newArray = [1,5,11,20,31];
+
+out1 = newArray.map(Factorial);
+
+out2 = newArray.map(function(x){
+    return Math.pow(x,3)
+});
+
+function Nester(callback) { 
+
+ return callback.map(Factorial);
+
+}
+
+// A callback as a function input
+
+out3 = Nester(newArray.map(function(x){
+    return Math.pow(x,3)
+}))
+
+					</pre>
+				</figure>
+				<figure>
+					<figcaption>And here is our output</figcaption>
+					<img id = "my-output" src = "img/out.png">
+				</figure>
+
+			</div>
+
+		</div>
+
+		<div id="output"></div>
+		
+	</body>
+
+</html>
