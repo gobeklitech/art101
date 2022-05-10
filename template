@@ -1,5 +1,20 @@
 <!DOCTYPE html>
 
+
+<style type="text/css">
+	
+	#my--gif {
+		width:  px;
+	}
+
+
+	#my--gif {
+		width:  px;
+	}
+
+
+</style>
+
 <html>
 
 	<head>
@@ -8,45 +23,70 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Art 101 Lab 8</title>
+		<title>Art 101 Lab X</title>
 
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 
-		<script src="js/lab.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://unpkg.com/bulma-prefers-dark" /> 
+
+		<script src="js/lab.js" defer></script>
 
 	</head>
 
 <!---------------------------------------------------------------------------------------------------->
 
-	<body>
+<body>
 
 		<div class="content">
+
+			<br><br>
 			
-			<h1><strong>Lab 8 - Anonymous Functions & Callbacks</strong></h1>
+			<div class = "columns is-centered">
+
+				<h1 class = "title is-2">Lab X - Y</h1>
+
+			</div>	
+
+			<div class = "columns is-centered">
+
+				<br>
+				<img id = "" src="">
+				<br>
+
+			</div>
 
 			<hr>
 
-			<div class = "box">
+			<div class = "box mx-4">
 
-				<h1>Challenge</h1>
+				<h1 class="subtitle is-3">Challenge</h1>
+
+				<p></p>
 				
 			</div>
 
 			<hr>
 
-			<div class = "box">
+			<div class = "box mx-4">
 
-				<h1>Problem</h1>
+				<h1 class="subtitle is-3">Problem</h1>
+
+				<p></p>
 				
 			</div>
 
 			<hr>
 
-			<div class = "box">
+			<div class = "box mx-4">
 
-				<h1>Results</h1>
+				<h1 class="subtitle is-3">Results</h1>
+
+				<div id = "output"></div>
 				
 			</div>
+
+			<br>
+			<br>
 
 		</div>
 		
