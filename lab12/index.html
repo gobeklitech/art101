@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+
+<style type="text/css">
+	
+	#tree {
+
+		width: 200 px;
+
+	}
+
+</style>
+
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Art 101 Lab 12</title>
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+		<link rel="stylesheet" type="text/css" href="https://unpkg.com/bulma-prefers-dark" /> 
+
+		<script src="js/lab.js" defer></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	</head>
+
+<!---------------------------------------------------------------------------------------------------->
+
+<body>
+
+		<div class="content">
+
+			<br><br>
+			
+			<div class = "columns is-centered">
+
+				<h1 class = "title is-2">Lab 12 - Conditionals</h1>
+
+			</div>	
+
+<!-- 			<div class = "columns is-centered">
+
+				<br>
+				<img id = "tree" src="img/real-tree.png">
+				<br>
+
+			</div> -->
+
+			<hr>
+
+			<div class = "box mx-4">
+
+				<h1 class="subtitle is-3">Challenge</h1>
+
+				<p>Create a function that depends on conditionals.</p>
+				
+			</div>
+
+			<hr>
+
+			<div class = "box mx-4">
+
+				<h1 class="subtitle is-3">Problem</h1>
+
+				<p>The task here was to create a form for the user to input their full name. Then, an event listener attached to a submit button triggers a function that sorts the number of characters in the submission into it's remainder modulo four. This number is then used to determine the user's house, out of Gryffindor, Ravenclaw, Slytherin, and Hufflepuff.</p>
+				
+			</div>
+
+			<hr>
+
+			<div class = "columns is-centered">
+
+				<div class = "box mx-4">
+
+					<h1 class="subtitle is-3">Results</h1>
+
+					<div id = "output">
+						
+						<div class = "field">
+
+							<label class = "label">Please enter your name for sorting:</label>
+
+							<div class = "control has-icons-left">
+
+								<input class="input is-rounded is-success" name = "user-name" id = "user-name" placeholder = "Jane Doe">
+
+							    <span class="icon is-small is-left">
+
+		  							<i class="fas fa-user"></i>
+
+								</span>
+
+							</div>
+
+							<br>
+
+							<div class = "control">
+
+								<button class = "button is-dark is-rounded" name = "button" id = "button" >Submit</button>
+
+							</div>		
+
+							<br>
+
+							<label class = "label">Output:</label>	
+
+							<div class = "control">		
+
+								<div id = "output"></div>
+
+							</div>
+
+						</div>
+
+					</div>
+					
+				</div>
+
+			</div>	
+
+			<br>
+			<br>
+
+		</div>
+		
+	</body>
+
+</html>

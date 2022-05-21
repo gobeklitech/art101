@@ -10,7 +10,6 @@ let myButton = document.getElementById("my-button");
 let myUsername= document.getElementById("user-name");
 
 
-
 function sortName() {
 
 	var userName = myUsername.value;
