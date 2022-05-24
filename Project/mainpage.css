@@ -1,0 +1,138 @@
+
+
+p{
+  font-family:"comic sans";
+  text-indent:20px;
+  margin-left:10px;
+}
+
+#content {
+  background-color:#cccccc ;
+  width:600px;
+  min-height:300px;
+  padding:10px;
+  margin:10px;
+  border:solid 1px #444444;
+  font-size: 20px;
+}
+
+h1{
+  color:#FF0000;
+  font-size:150%;
+  background-image: linear-gradient(to left, white, cyan, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+h3{
+  color:#black;
+  font-size:90%;
+  text-align: center;
+}
+
+
+body {
+  background-color:white;
+  width:600px;
+  min-height:300px;
+  padding:10px;
+  margin:10px;
+  font-size: 20px;
+}
+
+
+
+
+
+/* Cited */
+p999{
+  color:#FF0000;
+  font-size:80%;
+  color:black;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+/* InterestingFact */
+p100{
+  color:#black;
+  font-size:100%;
+  color: #black;
+}
+
+/*Fact */
+p123{
+  color:#black;
+  font-size:100%;
+  color: #black;
+}
+
+
+
+/* //object name */
+p2{
+  color:#FF0000;
+  font-size:130%;
+  color: #80FFFF;
+}
+
+p3{
+  color:#FF0000;
+  font-size:130%;
+  color: #B1D8B7;
+}
+
+/* yellow */
+p4{
+  color:#FF0000;
+  font-size:130%;
+  color: #E1C16E;
+}
+
+p5{
+  color:#FF0000;
+  font-size:130%;
+  color: #FF6347;
+}
+
+/* purple */
+p6{
+  color:#FF0000;
+  font-size:130%;
+  color: #713D99;
+}
+
+/* blue */
+p7{
+  color:#FF0000;
+  font-size:130%;
+  color:#3498DB;
+}
+
+
+/* 1st paragraph */
+p9{
+  color:#FF0000;
+  font-size:100%;
+  color:#80FFFF;
+}
+
+p10{
+  color:#FF0000;
+  font-size:100%;
+  color:#00D1D1;
+  font-style: italic;
+}
+
+p11{
+  color:#FF0000;
+  font-size:100%;
+  color:#00D1D1;
+  font-style: italic;
+}
