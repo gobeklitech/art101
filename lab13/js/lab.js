@@ -9,6 +9,8 @@ let mylength = document.getElementById("how-far");
 
 function fizzBuzz(){
 
+	debugger ; 
+
 	for (let i = 1; i <= mylength.value; i++) { 
 
 		threes  = i % 3;
@@ -19,7 +21,8 @@ function fizzBuzz(){
 		threesstr  = "";
 		fivesstr = "";
 		sevensstr = "";
-		elevensstr = "";				
+		elevensstr = "";	
+
 
 
 		if (!threes) {
@@ -52,7 +55,11 @@ function fizzBuzz(){
 
 	}
 
+	debugger ; 
+
 }
+
+
 
 myButton.addEventListener("click",fizzBuzz);
 
